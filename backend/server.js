@@ -20,7 +20,7 @@ const startServer = async () => {
 
     // Enable CORS with credentials (so cookies are sent cross-site)
     app.use(cors({
-      origin: 'http://localhost:5173',              // frontend origin
+      origin: 'https://e-commerce-mern-frontend.netlify.app',              // frontend origin
       credentials: true
     }));                                              // modified
 
@@ -41,3 +41,4 @@ const startServer = async () => {
 };
 
 startServer();
+
